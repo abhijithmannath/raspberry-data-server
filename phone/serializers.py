@@ -8,4 +8,4 @@ class DataSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = PiDataSet
-	fields = ('temp','humidity','created')
+	fields = ('temp','humidity','created','data3','data4','data5','data6','data7','data8',)
